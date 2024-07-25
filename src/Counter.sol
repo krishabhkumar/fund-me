@@ -16,5 +16,7 @@ contract Counter {
         number--;
     }
 
-
+    function addTwo() public {
+        number += 2;
+    }
 }
